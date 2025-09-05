@@ -6,7 +6,8 @@ import requests
 import os
 import cv2
 
-SERVER_BASE_URL = os.environ.get('SERVER_BASE_URL', 'http://192.168.1.39:5000')
+#Coloque seu IP aqui
+SERVER_BASE_URL = os.environ.get('SERVER_BASE_URL', 'http://0.0.0.0:5000')
 
 class VideoClientApp(tk.Tk):
     def __init__(self):
